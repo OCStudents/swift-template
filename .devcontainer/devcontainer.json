@@ -1,0 +1,15 @@
+{
+    "image": "matuadoc/swift",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "sswg.swift-lang",
+                "vadimcn.vscode-lldb",
+                "eamodio.gitlens",
+                "GitHub.vscode-pull-request-github",
+                "yzhang.markdown-all-in-one",
+                "aaron-bond.better-comments"
+            ]
+        }
+    }
+}
