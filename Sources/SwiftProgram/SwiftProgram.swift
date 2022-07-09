@@ -7,10 +7,13 @@
 //
 
 import Foundation
+import SwiftOnslow
 
 @main
 struct SwiftProgram {
     static func main() {
-        print("Hello, world!")
+        let name = input("Please enter your name: ")
+        print("Hello, \(name)!")
+        print(len(name))
     }
 }
