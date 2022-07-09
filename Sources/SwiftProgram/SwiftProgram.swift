@@ -8,4 +8,9 @@
 
 import Foundation
 
-print("Hello, world!")
+@main
+struct SwiftProgram {
+    static func main() {
+        print("Hello, world!")
+    }
+}
