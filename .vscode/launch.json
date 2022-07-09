@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug SwiftProgram",
+            "program": ".build/debug/SwiftProgram",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-template}",
+            "preLaunchTask": "swift: Build Debug SwiftProgram"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release SwiftProgram",
+            "program": ".build/release/SwiftProgram",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-template}",
+            "preLaunchTask": "swift: Build Release SwiftProgram"
+        }
+    ]
+}
